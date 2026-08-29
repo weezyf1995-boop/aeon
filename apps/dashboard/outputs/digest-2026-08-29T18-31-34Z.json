@@ -1,0 +1,454 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "crypto market SOL ETH ZEC — 2026-08-29"
+      },
+      "children": [
+        "tldr_section",
+        "tldr_stats",
+        "sep1",
+        "item1_section",
+        "sep2",
+        "item2_section",
+        "sep3",
+        "item3_section",
+        "sep4",
+        "item4_section",
+        "sep5",
+        "also_section"
+      ]
+    },
+    "tldr_section": {
+      "type": "Alert",
+      "props": {
+        "title": "TL;DR",
+        "message": "A macro risk-off hit crypto (BTC -3.2% to ~$77.7k), yet the money split — BTC ETFs bled $202M while ETH/SOL/XRP funds kept buying, and ZEC ran to an $880 ATH before its own ETF launch turned into a sell-the-news fade.",
+        "type": "info"
+      }
+    },
+    "tldr_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_sol",
+        "stat_zec"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "~$77.7k",
+        "delta": "-3.2%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "~$2,436",
+        "delta": "-3.1%",
+        "trend": "down"
+      }
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL peak",
+        "value": "$102.88"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC ATH",
+        "value": "$880"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1_title",
+        "item1_body",
+        "item1_stats",
+        "item1_timing",
+        "item1_why",
+        "item1_link"
+      ]
+    },
+    "item1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Zcash's ETF went live after the hype had already left the room",
+        "level": "h3"
+      }
+    },
+    "item1_body": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC climbed 82% in August to an $880 all-time high, then cooled to ~$803.",
+        "variant": "body"
+      }
+    },
+    "item1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_zec_aug",
+        "stat_zec_current"
+      ]
+    },
+    "stat_zec_aug": {
+      "type": "Stat",
+      "props": {
+        "label": "August gain",
+        "value": "+82%"
+      }
+    },
+    "stat_zec_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current price",
+        "value": "~$803"
+      }
+    },
+    "item1_timing": {
+      "type": "Text",
+      "props": {
+        "text": "Social mentions peaked Aug 22 and price Aug 23 — a day or two before the spot ETF actually launched, so the catalyst arrived after the crowd did.",
+        "variant": "body"
+      }
+    },
+    "item1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: the trade now is price discovery, not the ETF; a reclaim of $880 leaves no resistance overhead, a failure to hold invites a retrace toward the mid-$600s.",
+        "variant": "caption"
+      }
+    },
+    "item1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Zcash price surges 82% in August but can it push beyond its $880 high?",
+        "href": "https://coinpedia.org/price-analysis/zec-price-surges-82-in-august-but-can-it-push-beyond-its-880-high/",
+        "source": "Coinpedia"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2_title",
+        "item2_body",
+        "item2_flows",
+        "item2_why",
+        "item2_link"
+      ]
+    },
+    "item2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Institutional flows split from Bitcoin on Aug 28",
+        "level": "h3"
+      }
+    },
+    "item2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Spot BTC ETFs posted $201.9M of outflows, snapping a 9-day, $3.04B inflow streak, while ETH, SOL and XRP funds pulled in a combined ~$145M the same day. The reversal was BTC-specific, not a broad crypto exit.",
+        "variant": "body"
+      }
+    },
+    "item2_flows": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc_outflow",
+        "stat_alt_inflow",
+        "stat_streak"
+      ]
+    },
+    "stat_btc_outflow": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC ETF outflows",
+        "value": "-$201.9M"
+      }
+    },
+    "stat_alt_inflow": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/SOL/XRP inflows",
+        "value": "+$145M"
+      }
+    },
+    "stat_streak": {
+      "type": "Stat",
+      "props": {
+        "label": "Streak snapped",
+        "value": "9 days, $3.04B"
+      }
+    },
+    "item2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: institutions are rotating within crypto, not out of it — the alt bid held through a down macro tape.",
+        "variant": "caption"
+      }
+    },
+    "item2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Bitcoin ETF inflows snap after 3 billion streak as ETH, XRP and Solana keep buying",
+        "href": "https://cryptoslate.com/bitcoin-etf-inflows-snap-after-3-billion-streak-as-eth-xrp-and-solana-keep-buying/",
+        "source": "CryptoSlate"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3_title",
+        "item3_breakout",
+        "item3_overheat",
+        "item3_etf_detail",
+        "item3_why",
+        "item3_link"
+      ]
+    },
+    "item3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Solana's $100 breakout got rejected — but ETF demand hit a 2026 record",
+        "level": "h3"
+      }
+    },
+    "item3_breakout": {
+      "type": "Text",
+      "props": {
+        "text": "SOL broke above $100 for the first time since February (peak $102.88), then flushed to the mid-$90s.",
+        "variant": "body"
+      }
+    },
+    "item3_overheat": {
+      "type": "Text",
+      "props": {
+        "text": "RSI ~79 and $17.5M in long liquidations flagged the overheat.",
+        "variant": "body"
+      }
+    },
+    "item3_etf_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3_etf_text",
+        "item3_etf_stats"
+      ]
+    },
+    "item3_etf_text": {
+      "type": "Text",
+      "props": {
+        "text": "Meanwhile SOL ETF cumulative inflows jumped 4.83% in one session (Aug 26–27), the fastest one-day gain of 2026.",
+        "variant": "body"
+      }
+    },
+    "item3_etf_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_sol_cumulative",
+        "stat_bsol_portion"
+      ]
+    },
+    "stat_sol_cumulative": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL ETF cumulative",
+        "value": "$1.322B"
+      }
+    },
+    "stat_bsol_portion": {
+      "type": "Stat",
+      "props": {
+        "label": "Bitwise BSOL share",
+        "value": "~66%"
+      }
+    },
+    "item3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: sticky ETF demand is building a floor even as leveraged spot gets punished; $89–90 is the support that has to hold.",
+        "variant": "caption"
+      }
+    },
+    "item3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Solana latest updates",
+        "href": "https://coinmarketcap.com/cmc-ai/solana/latest-updates/",
+        "source": "CoinMarketCap"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item4_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item4_title",
+        "item4_body",
+        "item4_stats",
+        "item4_why",
+        "item4_link"
+      ]
+    },
+    "item4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Ethereum's price sags while its ETF streak doesn't",
+        "level": "h3"
+      }
+    },
+    "item4_body": {
+      "type": "Text",
+      "props": {
+        "text": "ETH trades ~$2,436 (-3.1%), but spot ETH ETFs added $102.1M for a 10th straight inflow session (~$1.5B over the run, ~$15.2B AUM) — a clean reversal of the outflow narrative that dogged ETH earlier this year.",
+        "variant": "body"
+      }
+    },
+    "item4_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_eth_inflow",
+        "stat_eth_streak",
+        "stat_eth_aum"
+      ]
+    },
+    "stat_eth_inflow": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH ETF inflows (Aug 28)",
+        "value": "+$102.1M"
+      }
+    },
+    "stat_eth_streak": {
+      "type": "Stat",
+      "props": {
+        "label": "Inflow streak",
+        "value": "10 straight sessions"
+      }
+    },
+    "stat_eth_aum": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH ETF AUM",
+        "value": "~$15.2B"
+      }
+    },
+    "item4_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: the institutional bid is intact under weak price action, which historically precedes the price catching up rather than the flows giving out.",
+        "variant": "caption"
+      }
+    },
+    "item4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Bitcoin ETF inflows snap after 3 billion streak as ETH, XRP and Solana keep buying",
+        "href": "https://cryptoslate.com/bitcoin-etf-inflows-snap-after-3-billion-streak-as-eth-xrp-and-solana-keep-buying/",
+        "source": "CryptoSlate"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "also_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "also_title",
+        "also_nu7",
+        "also_near"
+      ]
+    },
+    "also_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h3"
+      }
+    },
+    "also_nu7": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC's NU7 mainnet (private user-issued tokens + quantum-recoverable wallets) is slated for Nov 2026, testnet already doubling shielded-tx speed.",
+        "variant": "body"
+      }
+    },
+    "also_near": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR Intents now enables private ZEC transfers funded with SOL/USDC.",
+        "variant": "body"
+      }
+    }
+  }
+}

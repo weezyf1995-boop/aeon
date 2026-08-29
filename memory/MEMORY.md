@@ -11,6 +11,7 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-08-29 | crypto market SOL ETH ZEC | ZEC $880 ATH, ETF flow split, SOL $100 rejection |
 
 ## Skills Built
 | Skill | Date | Notes |
